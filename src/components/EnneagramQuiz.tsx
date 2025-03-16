@@ -804,7 +804,7 @@ export default function EnneagramQuiz() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h2 className="text-3xl font-bold mb-8">Your Enneagram Results</h2>
+            <h2 className="text-3xl font-bold mb-8">Your Rebel Mind Results</h2>
             
             <div className="space-y-6">
               {topTypes.map(([type, score], index) => (

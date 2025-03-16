@@ -51,7 +51,7 @@ const typeData: Record<number, TypeData> = {
     },
     strengths: ["Honest", "Responsible", "Improvement-oriented", "Ethical"],
     challenges: ["Criticality", "Rigidity", "Impatience", "Self-criticism"],
-    examples: ["I must be perfect to be worthy; the truth is, I am enough just as I am."],
+    examples: "I must be perfect to be worthy; the truth is, I am enough just as I am.",
     subtypes: {
       selfPreservation: "Focused on personal security and maintaining order in their environment",
       sexual: "Intense about personal relationships and maintaining high standards in partnerships",

@@ -6,20 +6,20 @@ export default function Footer() {
     <footer className="bg-card mt-16 py-8 px-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} The Enneagram Hub. All rights reserved.
+          © {new Date().getFullYear()} The Rebel Mind Hub. Aika Ioka. All rights reserved.
         </div>
         <div className="space-x-6">
           <Link 
-            href="https://example.com/about" 
+            href="https://aikavrdj.com" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            About Us
+            Learn more at AikaVRDJ.com
           </Link>
           <Link 
-            href="https://example.com/contact" 
+            href="https://aikavrdj.com/products/beat-the-system" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Contact
+            Beat the System Book
           </Link>
         </div>
       </div>

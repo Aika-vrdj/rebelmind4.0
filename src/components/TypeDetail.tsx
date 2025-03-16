@@ -581,11 +581,7 @@ export default function TypeDetail({ typeNumber, isWing, wingKey }: TypeDetailPr
             className="bg-card rounded-lg p-6"
           >
             <h2 className="text-2xl font-semibold mb-4">Mantra</h2>
-            <ul className="list-disc list-inside space-y-2">
-              {type.examples.map((example) => (
-                <li key={example}>{example}</li>
-              ))}
-            </ul>
+             <p className="text-lg">{type.examples}</p>
           </motion.div>
 
           <motion.div

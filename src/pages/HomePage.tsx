@@ -23,12 +23,10 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background" />
             <div className="absolute inset-0 flex items-center justify-center flex-col">
               <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                The Enneagram Hub
+                The Rebel Mind
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-                Discover the ancient wisdom of the Enneagram, a powerful tool for
-                personal growth and understanding. Explore all nine personality types
-                and uncover insights about yourself and others.
+                Unlock your true nature and embrace the rebellion within. Find your Rebel Archetype and discover your path to power, strategy, and freedom.
               </p>
             </div>
           </div>
@@ -36,7 +34,7 @@ export default function HomePage() {
             to="/quiz"
             className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
           >
-            Take the Enneagram Quiz
+            Take the Rebel Profiler Quiz
           </Link>
         </motion.div>
 
